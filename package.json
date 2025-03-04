@@ -1,0 +1,9 @@
+{
+  "name": "excel-splitter",
+  "version": "1.0.0",
+  "description": "Excel表格批量拆分工具",
+  "main": "preload.js",
+  "dependencies": {
+    "xlsx-style": "^0.8.13"
+  }
+}

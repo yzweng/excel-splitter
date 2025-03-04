@@ -1,0 +1,22 @@
+{
+  "main": "src/index.html",
+  "logo": "logo.png",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "excel-splitter",
+      "explain": "Excel表格批量拆分工具",
+      "cmds": [
+        "Excel 批量拆分",
+        "表格批量拆分",
+        {
+          "type": "files",
+          "label": "拆分Excel文件",
+          "fileType": "file",
+          "match": "/\\.(xlsx|xls)$/i",
+          "minLength": 1
+        }
+      ]
+    }
+  ]
+} 

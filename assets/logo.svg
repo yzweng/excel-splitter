@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="256" height="256" rx="48" fill="#1D6F42"/>
+    
+    <!-- Excel文档图标 - 左侧 -->
+    <rect x="44" y="64" width="80" height="96" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="56" y="88" width="56" height="8" rx="4" fill="#1D6F42"/>
+    <rect x="56" y="104" width="56" height="8" rx="4" fill="#1D6F42"/>
+    <rect x="56" y="120" width="56" height="8" rx="4" fill="#1D6F42"/>
+    
+    <!-- 箭头 -->
+    <path d="M140 128L172 96M172 96V116M172 96H152" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Excel文档图标 - 右上 -->
+    <rect x="132" y="64" width="80" height="96" rx="8" transform="rotate(-15 172 64)" fill="#FFFFFF" opacity="0.95"/>
+    <rect x="144" y="88" width="56" height="8" rx="4" transform="rotate(-15 172 88)" fill="#1D6F42"/>
+    <rect x="144" y="104" width="56" height="8" rx="4" transform="rotate(-15 172 104)" fill="#1D6F42"/>
+    <rect x="144" y="120" width="56" height="8" rx="4" transform="rotate(-15 172 120)" fill="#1D6F42"/>
+    
+    <!-- Excel文档图标 - 右下 -->
+    <rect x="132" y="96" width="80" height="96" rx="8" transform="rotate(15 172 156)" fill="#FFFFFF"/>
+    <rect x="144" y="120" width="56" height="8" rx="4" transform="rotate(15 172 176)" fill="#1D6F42"/>
+    <rect x="144" y="136" width="56" height="8" rx="4" transform="rotate(15 172 192)" fill="#1D6F42"/>
+    <rect x="144" y="152" width="56" height="8" rx="4" transform="rotate(15 172 208)" fill="#1D6F42"/>
+</svg> 

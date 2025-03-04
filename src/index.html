@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel 表格拆分工具</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Excel 表格拆分工具</h1>
+            <div class="header-buttons">
+                <button id="addFiles" class="btn success">添加文件</button>
+                <button id="startSplit" class="btn success" disabled>开始拆分</button>
+            </div>
+        </div>
+
+        <!-- 消息提示容器 -->
+        <div class="message-container" id="messageContainer"></div>
+
+        <div class="main">
+            <div class="file-list" id="fileList">
+                <div class="empty-state">
+                    <p>暂无文件</p>
+                    <p class="tip">点击"添加文件"按钮开始上传Excel文件</p>
+                </div>
+            </div>
+
+            <div class="settings">
+                <div class="split-type">
+                    <h3>拆分方式</h3>
+                    <label>
+                        <input type="radio" name="splitType" value="sheet" checked>
+                        按工作表拆分
+                    </label>
+                    <label>
+                        <input type="radio" name="splitType" value="content">
+                        按内容拆分
+                    </label>
+                </div>
+
+                <div class="content-settings" id="contentSettings" style="display: none;">
+                    <h3>拆分设置</h3>
+                    <div class="form-group">
+                        <label>工作表:</label>
+                        <select id="sheetSelect"></select>
+                    </div>
+                    <div class="form-group">
+                        <label>拆分列:</label>
+                        <select id="columnSelect"></select>
+                    </div>
+                </div>
+
+                <div class="output-settings">
+                    <h3>输出设置</h3>
+                    <div class="form-group">
+                        <label>输出目录:</label>
+                        <input type="text" id="outputDir" readonly>
+                        <button id="selectOutputDir" class="btn">选择目录</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="progress-container" id="progressContainer" style="display: none;">
+            <div class="progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="progress-text" id="progressText">处理中...</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html> 
