@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+build/
+
+# 开发环境文件
+.DS_Store
+.env
+.env.local
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 编辑器配置
+.idea/
+.vscode/
+*.sublime-*
+
+# uTools 相关
+*.upxs
